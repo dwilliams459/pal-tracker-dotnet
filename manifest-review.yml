@@ -2,4 +2,6 @@
 applications:
 - name: pal-tracker
   path: src/PalTracker/bin/Release/netcoreapp2.0/publish/
-  host: dlw-pal-tracker-review
+  host: dlw-pal-tracker-review  
+  services:
+  - tracker-database
